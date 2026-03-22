@@ -7,6 +7,10 @@ __pycache__/
 venv/
 env/
 .env.example
+env.example
+*env
+env*
+env.example/
 
 # База данных (SQLite)
 *.db
