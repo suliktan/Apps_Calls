@@ -1,42 +1,19 @@
+# Секретные данные — НИКОГДА не коммитить!
+.env
+
 # Python
-*.pyc
 __pycache__/
+*.py[cod]
 *.pyo
-*.pyd
-.Python
 venv/
-env/
-.env.example
-env.example
-*env
-env*
-env.example/
-
-# База данных (SQLite)
-*.db
-*.sqlite3
-db.sqlite3
-
-# Логи
-*.log
-logs/
+.venv/
+*.egg-info/
 
 # IDE
-.vscode/
 .idea/
+.vscode/
 *.swp
-*.swo
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Media (загружаемые файлы - можно закоммитить или нет по желанию)
-# media/
-
-# Статика (собирается автоматически)
-staticfiles/
-
-# Переменные окружения
-.env
-.env.local
